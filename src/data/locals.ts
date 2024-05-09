@@ -11,6 +11,6 @@ export const locals: Local[] = [
     name: 'Academia Lift',
     lat: -20.3600624,
     lng: -40.3245099,
-    address: "Av. Expedito Garcia, 5 - Campo Grande, Cariacica - ES"
+    address: "R. Itaperuna, 13 - Praia de Itaparica, Vila Velha - ES"
   },
 ];

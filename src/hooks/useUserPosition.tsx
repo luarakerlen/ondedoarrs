@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import L, { LatLng } from 'leaflet';
 import { Marker, Popup, useMap } from 'react-leaflet';
 
-export function useHome() {
+export function useUserPosition() {
 	const [position, setPosition] = useState<LatLng | null>(null);
 
 	const greenIcon = new L.Icon({
